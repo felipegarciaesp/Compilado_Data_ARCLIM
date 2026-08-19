@@ -50,8 +50,9 @@ Uso
 Ejemplo de ejecución:
 
 ```sh
-python [generar_compilatorio_tasmax_ssp585.py](http://_vscodecontentref_/0) --input-dir mensual --output salida.xlsx
+python generar_compilatorio_tasmax_ssp585.py --input-dir mensual --output salida.xlsx
+```
 
-## Notas finales
-
-Queda pendiente averiguar si los archivos de cada mes deben entregarse con exactamente el formato de nombre que se observa en las planillas actuales; por ahora el script depende del patrón de nombres descrito arriba y dará error si no encuentra coincidencias. ``````
+Notas finales
+-------------
+Queda pendiente averiguar si los archivos de cada mes deben entregarse con exactamente el formato de nombre que se observa en las planillas actuales; por ahora el script depende del patrón de nombres descrito arriba y dará error si no encuentra coincidencias.
